@@ -6,21 +6,26 @@ The primary goal is to maintain a consistent and optimized typing experience acr
 
 ## Repository Structure
 This repository is organized by keyboard model. Each keyboard has its own dedicated directory containing the specific configuration files relevant to it.
-.
+```
 ├── keychron_k10_pro/
-│   └── layout.json       # Exported layout/keymap configuration from VIA/Keychron Launcher
+│   ├── k10_pro_definition.json     # K10 Pro VIA definition file
+│   └── k10_pro_keymap.json         # Exported layout/keymap configuration from VIA/Keychron Launcher
+│
 ├── keychron_v5_max/
-│   └── layout.json       # Exported layout/keymap configuration from VIA/Keychron Launcher
+│   ├── v5_max_definition.json      # K10 Pro VIA definition file
+│   └── layout.json                 # Exported layout/keymap configuration from VIA/Keychron Launcher
+│
 ├── akko_5075s_vial/
-│   └── layout.json       # Exported layout/keymap configuration from VIAL
+│   ├── 5075s_via_definition.json   # K10 Pro VIA definition file
+│   └── layout.json                 # Exported layout/keymap configuration from VIAL
+│
 ├── nuphy_air60_v2/
-│   └── layout.json       # Exported layout/keymap configuration from VIA
-├── macros.md             # My macros as key-commands
-└── README.md             # This file
-
-
-*   **`layout.json`**: This file, found within each keyboard's directory, is the exported configuration backup created using the respective software (VIA, Keychron Launcher, or VIAL). It contains the specific key mappings, layers, macros, and other settings I've configured for that keyboard.
-*   **Definition JSON**: For keyboards using VIA or VIA-based software (like the Keychron Launcher or the Nuphy setup), a separate "definition" JSON file is sometimes required for the software to recognize the keyboard hardware, especially for wireless models or newer releases. Links to the official sources for these definition files are provided in the table below. Keyboards running VIAL firmware typically embed this definition within the firmware itself, so a separate file isn't needed for the VIAL software to detect them.
+│   ├── air60v2_definition.json     # K10 Pro VIA definition file
+│   └── layout.json                 # Exported layout/keymap configuration from VIA
+│
+├── macros.md                       # My macros as key-commands
+└── README.md                       # This file
+```
 
 ## My Keyboards and Configurations
 
