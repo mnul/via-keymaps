@@ -104,7 +104,7 @@
       "KC_NO",
       "KC_RSPC",
       "KC_NO",
-      "KC_RSFT",
+      "KC_UP",
       "KC_NO",
       "KC_LCTL",
       "KC_LGUI",
@@ -120,9 +120,9 @@
       "KC_NO",
       "KC_NO",
       "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO"
+      "KC_LEFT",
+      "KC_DOWN",
+      "KC_RGHT"
     ],
     [
       "KC_GRV",
